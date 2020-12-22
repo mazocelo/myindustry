@@ -20,9 +20,27 @@
     left: -600px;
     top: 88px;
 }
+#conteudo{
+  position: fixed;
+  left: 260px;
+  top:100px;
+}
+
+.lista-ordens{
+  position: absolute;
+  right: 90px;
+ }
+.ordem{
+  background-color: palegoldenrod;
+  width: 440px;
+  height: 220px;
+  border-radius: 2px;
+  border: 1px solid black;
+}
 
 .list{
     left: 20px;
+    z-index: 0;
 }
 
 .link-menu{
@@ -99,8 +117,20 @@ footer{
 
   @media screen and (max-width:540px){
 
+    #conteudo{
+      left: 30px;
+      z-index: 0;
+    }
+    .ordem{
+      width: 140px;
+      height: 102px;
+    }
+
     .logo{
       font-size: 2em ;
+    }
+    .lista-ordens{
+      right: 10px;  
     }
 
     .form-log{
