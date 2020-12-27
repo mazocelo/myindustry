@@ -21,25 +21,36 @@
                 <i class="fa fa-industry fa-2x" id= "logo" ></i>
                 <h2> My Industry</h2>
             </div>
-            <h2 class="link-menu">Dashboard</h2>
-            <h2 class="link-menu">Gerenciamento</h2>
-            <h2 class="link-menu">Senha</h2>
-            <h2 class="link-menu" href="/logout">Log Out</h2>
+            <h2 id="link-dashboard" class="link-menu">Dashboard</h2>
+            <h2 id="link-manager" class="link-menu">Gerenciamento</h2>
+            <h2 id="link-password" class="link-menu">Senha</h2>
+            <h2 id="link-logout" class="link-menu" href="/logout">Log Out</h2>
 
         </div>
         
         <main id="conteudo"> 
-            <div class="dashboard">
-            <h2>Linha de Produção: ALPHA</h1>
-            <div id="chart-div"></div>
+            <div id="dashboard" class=" dashboard">
+                <h2>Linha de Produção: ALPHA</h1>
+                <div id="chart-div"></div>
 
            </div>
 
-           <div class="gerenciamento">
-
+           <div id="manager" class="none manager">
+                <h2>Criação de ordens de produção</h2>
+                <form>
+                    <label for="line-name">Nome da linha</label>
+                    <br>
+                    <Input type="text"></Input>
+                    <br>
+                    <label for="goal">Meta de produção</label>
+                    <br>
+                    <Input type="number"></Input>
+                    <br>
+                    <i class="fa fa-plus"></i>
+                </form>
            </div>
 
-           <div class="senha">
+           <div id="password" class="none password">
 
            </div>
 

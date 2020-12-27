@@ -4,7 +4,9 @@
 .menu-titulo{
   display: flex;
 }
-
+.none{
+  display: none;
+}
 #logo{
  padding: 12px 10px 0px 0px;
  
@@ -46,6 +48,7 @@
 .link-menu{
     cursor: pointer;
 }
+
 
 .navegation {
     display: inline-block;
