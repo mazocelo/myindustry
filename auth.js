@@ -5,7 +5,6 @@ var NeDB = require('nedb')
 let db = new NeDB ({
     filename: 'industrias.db',
     autoload:true
-        
 });
 
 db.loadDatabase();

@@ -8,7 +8,10 @@ var db = new NeDB ({
     
 });
 
+db.loadDatabase();
 router.post('/', function(req, res, next) {
+    
+    db.loadDatabase();  
     db.insert(req.body,err=>{
         if(err){
             
