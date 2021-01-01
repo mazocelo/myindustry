@@ -91,19 +91,25 @@ footer{
 
 }
 
+.form-reg{
+  position: absolute;
+  top:600px;
+  left:300px;
+}
+
 .form-log{
-  position: fixed;
+  position: absolute;
   top: 100px;
   left: 300px;
 }
 
-.user-log{
+label{
   font-size: 2em;
   padding: 10px;
   margin:10px;  
 
 }
-.user-input{
+.inputs {
   font-size: 2em;
   padding: 10px;
   margin:10px;  

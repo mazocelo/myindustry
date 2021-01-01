@@ -9,7 +9,8 @@ require('./auth')(passport)
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var loginRouter = require('./routes/login')
+var loginRouter = require('./routes/login');
+var registerRouter = require('./routes/register');
 
 var app = express();
 
@@ -43,7 +44,7 @@ function authMidWare(req,res,next){
 }
 
 
-
+app.use('/register',registerRouter)
 app.use('/login',loginRouter);
 app.use('/users',authMidWare, usersRouter);
 app.use('/',authMidWare, indexRouter);

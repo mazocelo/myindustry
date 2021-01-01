@@ -1,6 +1,8 @@
-<<<<<<< HEAD
 PLATAFORMA DE GERENCIAMENTO INDUSTRIAL.
-=======
-# myindustry
-PLATAFORMA DE GERENCIAMENTO INDUSTRIAL.
->>>>>>> b44d98626b66eef71d9c6e43cbc52cef86728f27
+
+myindustry
+PLATAFORMA DE GERENCIAMENTO INDUSTRIAL
+
+Link = https://myindustry.glitch.me/
+Mod
+Geral { usuario: adm, senha: 123 }

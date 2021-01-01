@@ -12,19 +12,40 @@
     <main>
             
         <form class="form-log" method="POST" action="/login">
-            <label class= "user-log" for="username">Nome de Usuário</label>
+            <label  for="username">Nome de Usuário</label>
             <br>
-            <input name="username" class="user-input" type="text">
+            <input name="username" class="inputs" type="text">
             <br>
-            <label class= "user-log" for="password">Senha</label>
+            <label  for="password">Senha</label>
             <br>
-            <input name="password" class="user-input" type="text">
+            <input name="password" class="inputs" type="text">
             <br>
             <input class="log-btn" type="submit" value="Entrar">
             <br>
-            <h3 class ="link-menu">Cadastre sua empresa</h2>
+          
         </form>
-
+        
+        <form class = "form-reg"  method="POST" action= "/register">
+            <label>Cadastre sua empresa</label>
+            <br><br><br><br><br><br>
+            <label for="email">Email</label>
+            <br>
+            <input name="email" class="inputs" type="text">
+            <br>
+            <label for="password">Digite uma senha</label>
+            <br>
+            <input name="password" class="inputs" type="text">
+            <br>
+            <label for="repeated-password">Repita a Senha</label>
+            <br>
+            <input name="repeated-password" class="inputs" type="text">
+            <br>
+            <label for="username">Nome de Usuário</label>
+            <br>
+            <input name="username" class="inputs" type="text">
+            <br>
+            <input class="log-btn" type="submit" value="Registrar">
+        </form>
     </main>
 </body>
 </html>
