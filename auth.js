@@ -1,4 +1,4 @@
-var DbControl = require('./DbControl')
+var DbControl = require('./model/DbControl')
 
 //const bcrypt = require('bcryptjs')
 const LocalStrategy = require('passport-local').Strategy
