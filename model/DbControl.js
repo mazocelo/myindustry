@@ -2,10 +2,11 @@ var Datastore = require('nedb')
 class DbControl{
     constructor(){
         this._db = new Datastore ({
-            filename: 'ind.db',
+            filename: './database/ind.db',
             autoload:true
                 
         });
+       
        
     }
 
@@ -22,7 +23,7 @@ class DbControl{
                     }
                 })
         })
-        }
+    }
     findById(paramId){
         return new Promise((s,f)=>{
             this._db.loadDatabase()
