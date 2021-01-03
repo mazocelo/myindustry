@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var dbControl = require('../model/dbControl')
+var dbControl = require('../DbControl')
 var Db = new dbControl()
 
 

@@ -1,5 +1,5 @@
-var DbControl = require('./model/DbControl')
-var Datastore = require('nedb')
+var DbControl = require('./DbControl')
+
 //const bcrypt = require('bcryptjs')
 const LocalStrategy = require('passport-local').Strategy
 //bcrypt.hashSync()
