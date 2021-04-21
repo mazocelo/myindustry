@@ -1,18 +1,17 @@
-var express = require('express');
-var router = express.Router();
-var dbControl = require('../model/DbControl')
-var Db = new dbControl()
+const express = require('express');
+const router = express.Router();
+//const db = require('../db')
 
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send(req.user);
+    res.send(req.user);
 });
 
-router.post('/novaMeta', function(req,res,next){
- 
-  
- 
+router.post('/novaMeta', function(req, res, next) {
+    db.findSomething()
+
+
 })
 
 

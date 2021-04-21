@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,58 +8,55 @@
     <title>My Industry</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <div name="app" id="app" class="app">
-        
+
         <div class="navegation" id="bars">
             <div class="bar1"></div>
             <div class="bar2"></div>
-            <div class="bar3"></div>            
+            <div class="bar3"></div>
         </div>
 
         <div class="menu" id="menu">
             <div class="menu-titulo">
-                <i class="fa fa-industry fa-2x" id= "logo" ></i>
+                <i class="fa fa-industry fa-2x" id="logo"></i>
                 <h2> My Industry</h2>
             </div>
             <h2 id="link-dashboard" class="link-menu">Dashboard</h2>
             <h2 id="link-manager" class="link-menu">Gerenciamento</h2>
             <h2 id="link-password" class="link-menu">Senha</h2>
             <h2 id="link-logout" class="link-menu" href="/logout">Log Out</h2>
-
         </div>
-        
-        <main id="conteudo"> 
+        <main id="conteudo">
             <div id="dashboard" class=" dashboard">
-                <h2>Linha de Produção: ALPHA</h1>
+                <h2>Linha de Produção: ALPHA</h2>
                 <div id="chart-div"></div>
-
-           </div>
-
-           <div id="manager" class="none manager">
+            </div>
+            <div id="manager" class="none manager">
                 <h2>Criação de ordens de produção</h2>
-                <form method="POST" action= "/users/novaMeta">
+                <form method="POST" action="/users/novaMeta">
                     <label for="line-name">Nome da linha</label>
                     <br>
-                    <Input class="inputs" type="text"></Input>
+                    <input class="inputs" type="text">
                     <br>
                     <label for="goal">Meta de produção</label>
                     <br>
-                    <Input class="inputs" type="number"></Input>
+                    <input class="inputs" type="number">
                     <br>
                     <button type="text" class="inputs">Adicionar Ordem <i class="fa fa-plus"></i></button>
                 </form>
-           </div>
+            </div>
 
-           <div id="password" class="none password">
+            <div id="password" class="none password">
                 <form action=""></form>
-           </div>
+            </div>
 
         </main>
 
-        <div class="lista-ordens" id= "lista-de-ordens" name="ordens-de-serviço">
+        <div class="lista-ordens" id="lista-de-ordens" name="ordens-de-serviço">
             <h2>Lista de ordens de produção</h2>
-            <div class="ordem" ></div>               
+            <div class="ordem"></div>
         </div>
 
         <footer>
@@ -69,4 +67,5 @@
     <script src="js/controller/industryController.js"></script>
     <script src="js/index.js"></script>
 </body>
+
 </html>
